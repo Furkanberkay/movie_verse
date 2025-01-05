@@ -1,0 +1,56 @@
+name: movie_verse
+description: "A new Flutter project for movie ticket booking and user authentication."
+
+# Yayınlama ayarı (pub.dev için özel paket olmadığı belirtilmiştir)
+publish_to: 'none'
+
+# Uygulamanızın sürüm bilgileri
+version: 1.0.0+1
+
+# Dart ve Flutter SDK uyumluluğu
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+# Projenizde kullanılan bağımlılıklar
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # iOS ve macOS için Cupertino stili simgeler
+  cupertino_icons: ^1.0.8
+
+  # State management için Flutter Bloc
+  flutter_bloc: ^8.1.0
+
+  # Reactif butonlar için
+  reactive_button: ^0.0.4
+
+  # Functional programming destekleri için
+  dartz: ^0.10.1
+
+  # HTTP istekleri için Dio
+  dio: ^5.0.0
+
+  # Loglama için
+  logger: ^2.5.0
+
+  # Service locator için
+  get_it: ^8.0.3
+
+  # Kullanıcı verilerini depolamak için
+  shared_preferences: ^2.0.15
+
+# Test ve geliştirme bağımlılıkları
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0 # Kod standartlarını kontrol etmek için
+
+flutter:
+
+  # Material simgelerin dahil edilmesi
+  uses-material-design: true
+
+  # Uygulamanızda kullanılacak varlıklar (assets)
+  assets:
+    - assets/images/
