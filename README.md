@@ -1,16 +1,16 @@
-# movie_verse
+🎬 MovieVerse - Discover Movies with IMDB API
+MovieVerse is a mobile application developed using Dart and Node.js, fetching movies from the IMDB API and providing users with detailed movie recommendations. This app categorizes movies into Now Playing, Recommended, and Similar Movies, making film discovery effortless for users.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📌 Technologies Used:
+Dart & Flutter - For building a modern and user-friendly UI.
+Node.js - For backend operations.
+Dio - For handling HTTP requests.
+Dartz - For error handling and functional programming.
+IMDB API - For fetching movie data.
+🚀 Features:
+✅ Now Playing Movies – Displays currently playing movies.
+✅ Recommended Movies – Suggests movies based on user preferences.
+✅ Similar Movies – Shows movies similar to what the user watched.
+✅ Detailed Movie Page – Includes descriptions, ratings, cast, and more.
+✅ Modern & Smooth UI – Ensures a fast and intuitive user experience.
+📌 MovieVerse is designed for movie lovers – the perfect discovery app for every film enthusiast! 🎥
