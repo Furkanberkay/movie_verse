@@ -40,6 +40,17 @@ dependencies:
   # Kullanıcı verilerini depolamak için
   shared_preferences: ^2.0.15
 
+  flutter_svg: ^2.0.16
+
+  fan_carousel_image_slider:
+  carousel_slider:
+
+  chewie: ^1.9.0
+
+  video_player:
+
+  youtube_player_flutter: ^9.1.1
+
 # Test ve geliştirme bağımlılıkları
 dev_dependencies:
   flutter_test:
@@ -54,3 +65,4 @@ flutter:
   # Uygulamanızda kullanılacak varlıklar (assets)
   assets:
     - assets/images/
+    - assets/vectors/

@@ -32,10 +32,11 @@ class AppTheme {
         backgroundColor: AppColors.primary,
         elevation: 0,
         textStyle: const TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
-        shape: BeveledRectangleBorder(
-          borderRadius: BorderRadius.circular(100),
+        shape: RoundedRectangleBorder( // Daha yuvarlak köşeler
+          borderRadius: BorderRadius.circular(16), // Yuvarlatma derecesi
         ),
       ),
     ),
+
   );
 }

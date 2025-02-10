@@ -21,20 +21,22 @@ class SigninPage extends StatelessWidget {
     return Scaffold(
       body: SafeArea(
         minimum: EdgeInsets.only(top: 100, right: 16, left: 16) ,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            _signinText(),
-            const SizedBox(height: 30,),
-            _emailField(),
-            const SizedBox(height: 20,),
-            _passwordField(),
-            const SizedBox(height: 60,),
-            _siginButton(context),
-            const SizedBox(height: 20,),
-            _signupText(context),
-          ],
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              _signinText(),
+              const SizedBox(height: 30,),
+              _emailField(),
+              const SizedBox(height: 20,),
+              _passwordField(),
+              const SizedBox(height: 60,),
+              _siginButton(context),
+              const SizedBox(height: 20,),
+              _signupText(context),
+            ],
+          ),
         ),
       ),
     );

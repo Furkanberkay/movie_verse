@@ -22,20 +22,22 @@ class SignupPage extends StatelessWidget {
     return Scaffold(
       body: SafeArea(
         minimum: EdgeInsets.only(top: 100, right: 16, left: 16) ,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            _signupText(),
-            const SizedBox(height: 30,),
-            _emailField(),
-            const SizedBox(height: 20,),
-            _passwordField(),
-            const SizedBox(height: 60,),
-            _sigupButton(context),
-            const SizedBox(height: 20,),
-            _siginText(context),
-          ],
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              _signupText(),
+              const SizedBox(height: 30,),
+              _emailField(),
+              const SizedBox(height: 20,),
+              _passwordField(),
+              const SizedBox(height: 60,),
+              _sigupButton(context),
+              const SizedBox(height: 20,),
+              _siginText(context),
+            ],
+          ),
         ),
       ),
     );
@@ -71,7 +73,7 @@ class SignupPage extends StatelessWidget {
 
   Widget _sigupButton(BuildContext context) {
     return ReactiveButton(
-      title: 'Sign In',
+      title: 'Sign Up',
       activeColor: AppColors.primary,
       onPressed: () async {
        await sl<SignupUseCase>().call(
